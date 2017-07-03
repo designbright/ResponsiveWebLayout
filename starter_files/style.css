@@ -116,6 +116,20 @@ header{
   #main_nav a{
     width: 30%;
     margin: 5px;
+
+    display: flex;
+    padding: 10px;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  #sidebar_content{
+    background: #ffffdd;
+    display: flex;
+    margin-top: 10px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
   }
 }
 
@@ -158,16 +172,11 @@ header{
     width: 60%;
     padding-right: 30px;
   }
-  #sidebar_content{
-    background-color: #ffffdd;
-    margin-top: 10px;
-    display: flex;
-    flex-flow: row nowrap;
-  }
 
   #sidebar_content{
     background: #ffffdd;
     display: flex;
+    margin-top: 10px;
     flex-flow: row nowrap;
     justify-content: space-between;
   }
