@@ -50,3 +50,8 @@ Practically speaking, most sites have media queries for three sizes:
     * 640px 
     * 1025px
 
+## Fluid Layouts
+* Even with media queries, the experience of using sites can be a little clunky if we don't manage what happens between the media queries. 
+* Fluid layouts help manage the user's experience as they transition between screen sizes or re-size their browser window
+
+
