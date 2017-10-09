@@ -35,3 +35,18 @@ Responsive Web Design has two interdependent elements:
     * Used to manage what happens between the media queries. 
     * Creates a fluid transition when your screen size changes instead of a stark jump from desktop to mobile view
 
+## Breakpoints
+* The term "breakpoint" refers to the **pixel width** where the styles change. 
+* You can think of it as saying: "Breakpoints specify when one layout "breaks" into a new layout".
+* When developers refer to breakpoints, they are referring to the **pixel widths in their media queries.**
+
+#### Common Breakpoints
+Practically speaking, most sites have media queries for three sizes:
+1. mobile (or "small", like an iPhone), 0-639px
+2. tablet (or "medium", like an iPad), 640px - 1024px
+3. desktop (or "large", like a computer), 1025px and up
+
+* Those three "sizes" require two breakpoints:
+    * 640px 
+    * 1025px
+
